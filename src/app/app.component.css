@@ -1,0 +1,42 @@
+#body1{
+    display: inline-block;
+    padding:30px;
+    background-color: rgba(3, 21, 43, 0.649);
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 5px 10px rgb(32, 30, 30);
+}
+h1{
+    margin-left: 18%;
+    color:white;
+}
+
+li{
+    padding:3px;
+    background-color: rgb(43, 37, 37);
+    color:White;
+    list-style-type: none;
+    margin-right:25%;
+}
+.btn2{
+    display: flex;
+    float:right;
+}
+#btn{
+    margin: 4px;
+    background-color: black;
+    color:white;
+}
+#rmv{
+    margin-left: 20%;
+    padding: 7px;
+    background-color: rgb(235, 37, 37);
+    color:white;
+    border: 0px solid transparent;
+}
+#rmv:hover{
+    background-color: white;
+    color:rgb(235, 37, 37);
+    font-weight: 500;
+}

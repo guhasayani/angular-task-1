@@ -1,0 +1,16 @@
+<div id="body1">
+    <h1> To-Do List</h1>
+<input #inputbox type="text" placeholder="Add a new task">
+<button id="btn" (click)="AddTask(inputbox.value)">Add Task</button>
+<br>
+<br>
+<ul *ngFor="let item of list;let i=index" border="1">
+    <li>{{item.NAME}}
+        <div class="btn2">
+            <input class="cmp" type="checkbox" (change)="toggle($event,i)">
+        </div>
+    </li>
+    
+</ul>
+<button id="rmv" (click)="delete()">Clear completed tasks</button>
+</div>
